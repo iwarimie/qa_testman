@@ -7,11 +7,38 @@
   </head>
   <body>
     <h1>Checking GitHub from Git</h1>
-    <p>Do You know that there are 3 ways to interact with github</p>
+    <h2>Do You know that there are 3 ways to interact with github</h2>
     <ul>
       <li>HTTPS</li>
       <li>SSH</li>
       <li>GitHub CLI</li>
+    </ul>
+    <h3>HTTPS</h3>
+    <p>
+      The use of password to gain access to your remote Repositories that is
+      GitHub from the git command line has been stopped, so how do we access our
+      github Repositories on GitHub?
+    </p>
+    <h2>What has Replaced the use of passwords?</h2>
+    <p>They are 2 types of personal access tokens(pat):</p>
+    <ul>
+      <li>fine-grained personal access token</li>
+      <li>personal access token (classic)</li>
+    </ul>
+    <h2>
+      Do You Know that Public Repositories can Configure their repo to restrict
+      the access of personal access token (classic)
+    </h2>
+    <p>
+      If you try to use a personal access token (classic) to access resources in
+      an organization that has disabled personal access token (classic) access,
+      your request will fail with a 403 response. instead you should use any of
+      these:
+    </p>
+    <ul>
+      <li>GitHub App, or</li>
+      <li>OAuth app,</li>
+      <li>fine-grained personal access token.</li>
     </ul>
   </body>
 </html>
