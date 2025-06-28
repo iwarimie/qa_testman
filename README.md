@@ -1,2 +1,2 @@
 # qa_testman
-I changed my github promary email and want to test to see if everything is working fine
+I changed my GitHub primary email and want to test to see if everything is working fine
